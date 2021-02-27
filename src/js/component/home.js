@@ -64,7 +64,7 @@ export function Home() {
 			<NavBar />
 			<div className="container">
 				<Jumbotron />
-				<div className="m-5">
+				<div className="my-3">
 					<div className="row row-cols-md-4">{cards}</div>
 				</div>
 			</div>

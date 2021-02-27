@@ -3,7 +3,7 @@ import React from "react";
 export function Jumbotron() {
 	return (
 		<div>
-			<div className="jumbotron m-5">
+			<div className="jumbotron">
 				<h1 className="display-4">A Warn Welcome!!!</h1>
 				<p className="lead">
 					Lorem ipsum dolor sit amet consectetur adipiscing elit

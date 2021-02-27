@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export function Card(props) {
 	return (
-		<div className="col-md-3">
+		<div className="col-md-3 m-auto">
 			<div className="card">
 				<img
 					className="card-img-top"
