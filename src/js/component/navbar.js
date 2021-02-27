@@ -1,11 +1,11 @@
 import React from "react";
 
-const NavBar = () => {
+export function NavBar() {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 				<a className="navbar-brand" href="#">
-					Landing Page React
+					Start BootStrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -26,12 +26,17 @@ const NavBar = () => {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Features
+								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Pricing
+								Services
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#">
+								Contact
 							</a>
 						</li>
 					</ul>
@@ -39,6 +44,4 @@ const NavBar = () => {
 			</nav>
 		</div>
 	);
-};
-
-export default NavBar;
+}
